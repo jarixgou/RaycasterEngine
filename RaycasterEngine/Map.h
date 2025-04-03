@@ -7,6 +7,9 @@
 #define MAP_WIDTH 12
 #define MAP_HEIGHT 12
 
+#define PLANE_DISTANCE 0.66f
+
+
 typedef enum WallID
 {
 	NOTHING,
@@ -20,6 +23,9 @@ typedef struct mapData
 {
 	sfRectangleShape** wall2D; // Array
 	int nbWall2D;
+
+	sfRectangleShape** wall3D; // Array
+	int nbWall3D;
 	
 	double planeX;
 	double planeY;

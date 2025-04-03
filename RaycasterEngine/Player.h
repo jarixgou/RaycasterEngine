@@ -3,12 +3,9 @@
 
 #include "Common.h"
 
-#define _USE_MATH_DEFINES
-#include "math.h"
-
 #define PLAYER_SPRITE_PATH "Assets/Sprites/Player.png"
-#define PLAYER_VELOCITY 300
-#define PLAYER_ROTATION_FACTOR 150.f
+#define PLAYER_VELOCITY 5
+#define PLAYER_ROTATION_FACTOR 50.f
 
 typedef struct PlayerData
 {

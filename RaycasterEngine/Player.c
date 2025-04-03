@@ -12,9 +12,7 @@ void LoadPlayer(void)
 	sfFloatRect hitbox = sfSprite_getGlobalBounds(playerData.spr);
 	sfSprite_setOrigin(playerData.spr, (sfVector2f) { hitbox.width / 2, hitbox.height / 2 });
 
-	sfSprite_setScale(playerData.spr, (sfVector2f) { GAME_SCALE * 3, GAME_SCALE * 3 });
-
-	sfSprite_setPosition(playerData.spr, (sfVector2f) { 128, 324 });
+	sfSprite_setPosition(playerData.spr, (sfVector2f) { 2, 2 });
 }
 
 void UpdatePlayer(float _dt)

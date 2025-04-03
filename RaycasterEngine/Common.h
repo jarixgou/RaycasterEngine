@@ -12,6 +12,10 @@
 #define SCREEN_HEIGHT 768
 #define BPP 32
 
+#define _USE_MATH_DEFINES
+#include "math.h"
+
+
 #define GAME_SCALE 2
 #pragma endregion
 
