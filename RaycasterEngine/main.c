@@ -1,5 +1,6 @@
 #include "Common.h"
 #include "GameState.h"
+#include "RichPresence.h"
 
 #pragma region Struct
 typedef struct MainData
@@ -45,6 +46,8 @@ void Load(MainData* const _mainData)
 	srand(_getpid());
 
 	LoadMainData(_mainData);
+
+	extern createRich
 
 	SetGameState(GAME);
 }
